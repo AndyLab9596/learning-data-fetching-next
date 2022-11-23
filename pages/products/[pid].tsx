@@ -1,7 +1,7 @@
 import { GetStaticPropsContext, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 import { Fragment } from 'react'
-import { IProduct } from '.'
+import { IProduct } from '..'
 import fs from 'fs/promises';
 import path from 'path';
 
